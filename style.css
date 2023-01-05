@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(85, 77, 155);
+    font-family: sans-serif;
+    height: 70px;
+    border: solid 0.5px white;
+}
+.logo{
+    width: 30%;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+}
+/* .logo span{
+    
+} */
+.menu ul li a{
+    font-size: 16px;
+}
+
+.positionAb{
+    position: absolute;
+}
+.transform{
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.menu{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    left: 30%;
+}
+.cryparam h6{
+    color: aliceblue;
+    font-size: 30px;
+    text-decoration: none;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+.nav-links li{
+    list-style: none;
+
+}
+.nav-links a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+/* -------------------------------------- */
+.background{
+    background: url(picture/andre-francois-mckenzie-JrjhtBJ-pGU-unsplash.jpg)center center/cover no-repeat;
+    /* background-attachment: fixed; */
+    display: inline-block;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+
+#font-size55{
+    font-size: 55px;
+}
+.video-youtube{
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.video-youtube span{
+    color: white;
+    font-family: cursive;
+}
+.video-youtube :nth-child(3){
+    top: 30%;
+    font-size: 30px;
+}
+.video-link{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    border: solid 2px white;
+    border-radius: 25px;
+    margin-top: 35px;
+    left: 65%;
+    top: 20%;
+    transition: 1s;
+}
+.video-link:hover{
+    background-color: rgb(85, 77, 155);
+}
+.video-link a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.video-link span{
+    /* background-color: aqua; */
+    left: 60%;
+    width: 80%;
+}
+
+/* --------------------------- */
+
+.online-box{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 80%;
+    right: 4%;
+}
+.price-box{
+    width: 12%;
+    height: 70px;
+    /* background-color: red; */
+    float: right;
+    margin: 2%;
+}
+.log{
+    width: 28%;
+    height: 74%;
+    float: left;
+    margin-top: 10px;
+}
+/* --------logo img by id--------- */
+#bitcoin-img{background: url(picture/Bitcoin.svg.png)center center/cover no-repeat;}
+
+#ethereum-img{background: url(picture/ethereum.png)center center/cover no-repeat;}
+
+#dogecoin-img{background: url(picture/dogecoin1.png)center center/cover no-repeat;}
+
+#litecoin-img{background: url(picture/litecion.jpg)center center/cover no-repeat;}
+.price-text{
+    width: 70%;
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.price-text h3{
+    padding-left: 25px ;
+    color: white;
+    font-size: 19px;
+    font-family: cursive;
+}
