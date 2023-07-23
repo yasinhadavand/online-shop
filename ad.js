@@ -1,9 +1,9 @@
-var btc = document.getElementById("bitcoin")
-var ltc = document.getElementById("litecoin")
-var eth = document.getElementById("ethereum")
-var doge = document.getElementById("dogecoin")
+const btc = document.getElementById("bitcoin"),
+    ltc = document.getElementById("litecoin"),
+    eth = document.getElementById("ethereum"),
+    doge = document.getElementById("dogecoin");
 
-var liveprice = {
+const liveprice = {
     "async": true,
     "scroosDomain": true,
     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Clitecoin%2Cethereum%2Cdogecoin&vs_currencies=usd",
